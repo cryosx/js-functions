@@ -166,7 +166,11 @@ console.log(checkDifference(difference));
  * Console.log your result.  
 */
 
+function checkProduct() {
+	return sum * product;
+}
 
+console.log(checkProduct());
 
 
 /*
