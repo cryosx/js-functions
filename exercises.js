@@ -134,8 +134,7 @@ console.log(quotient);
 function checkSum(x) {
 	return "Mariah Carey has been married " + x + " amount of times."
 }
-var daDiva = checkSum(2);
-console.log(daDiva);
+console.log(checkSum(sum));
 
 /*
  * #7
@@ -149,6 +148,11 @@ console.log(daDiva);
  * Console.log your results.
 */ 
 
+function checkDifference(x) {
+	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos."
+}
+
+console.log(checkDifference(difference));
 
 
 /*
@@ -161,6 +165,7 @@ console.log(daDiva);
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
+
 
 
 
