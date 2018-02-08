@@ -89,6 +89,12 @@ console.log(difference);
  * Console.log `product` to test your code.
 */
 
+function multiply(num1, num2) {
+	return num1 * num2;
+}
+
+var product = multiply(bango1, bango2);
+console.log(product);
 
 
 /*
