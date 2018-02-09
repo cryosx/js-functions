@@ -324,7 +324,13 @@ console.log(shoeSize(10));
  * Console.log your result.
 */
 
+function oneCap(str) {
+	var firstLetter = str.charAt(0);
+	firstLetter = firstLetter.toUpperCase();
+	return firstLetter + str.slice(1, str.length);
+}
 
+console.log(oneCap("test to test"));
 
 /*
  * #17
