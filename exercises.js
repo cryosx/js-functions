@@ -293,7 +293,11 @@ console.log(eatFood("Bob", "Miller", "Pasta"));
  * Console.log your result. 
 */
 
+function shoeSize(inches) {
+	return inches * 2.54;
+}
 
+console.log(shoeSize(10));
 
 /*
  * #15
