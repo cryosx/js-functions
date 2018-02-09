@@ -344,7 +344,7 @@ console.log(oneCap("test to test"));
  */
 
 function verifyDrinkingAge(age) {
-	return age >= 21 ? true : false;
+	return age >= 21;
 }
 
 var canDrink = verifyDrinkingAge(21);
